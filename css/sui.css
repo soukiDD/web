@@ -1,1 +1,348 @@
 
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 99%;
+    height: 99%;
+}
+.invisible {
+    display: none;
+}
+.vtext {
+    writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+}
+.slabel {
+    display: inline-block;
+}
+.stextfield {
+    display: inline-block;
+}
+.stextarea {
+    display: inline-block;
+}
+.stexteditor {
+    padding: 5px 5px 5px 5px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    cursor: text;
+}
+.stexteditor a {
+    columns: blue;
+    cursor: pointer;
+}
+.sbutton {
+    display: inline-block;
+    text-align: center;
+}
+.stoggle {
+    display: inline-block;
+    text-align: center;
+}
+.sview {
+    overflow: auto;
+}
+.simageview {
+    display: inline-block;
+}
+.stabview .stab {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-color: dimgray;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+}
+.stabview .stab .stab-title {
+    cursor: default;
+    margin: 5px 5px 5px 10px;
+}
+.stabview .stab .stab-closer {
+    margin: 5px 10px 5px 5px;
+    cursor: pointer;
+}
+.stabview .stab.selected {
+    background-color: black;
+    color: white;
+}
+.stabview .stv-header {
+    margin: 10px 10px 0px 10px;
+}
+.stabview .stv-content {
+    margin: 0px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+.svsplit {
+    min-height: 2px;
+    background-color: lightgray;
+    cursor: row-resize;
+}
+.shsplit {
+    min-width: 2px;
+    background-color: lightgray;
+    cursor: col-resize;
+    background: linear-gradient(rgb)
+}
+.smenubar {
+    width: 100%;
+    background: white;
+}
+.smenu {
+    cursor: default;
+    padding: 5px;
+}
+.smenu:active {
+    background-color: lightgray;
+}
+.smenulist {
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+}
+.smn-label {
+}
+.smenuitem {
+    cursor: default;
+    display: inline-block;
+}
+.smenuitem:hover {
+    background-color: lightgray;
+}
+.stbitem {
+    margin: 5px;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+.stbitem-image {
+    text-align: center;
+}
+.stbitem:hover {
+    background-color: lightgray;
+}
+.sframe {
+    
+}
+.sframe .header {
+
+}
+.sframe .header .title {
+    text-align: center;
+}
+.sdialog {
+    position: fixed;
+    background-color: white;
+}
+.backscreen {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+}
+.spanel {
+    position: absolute;
+    display: inline-block;
+}
+
+
+.stableview {
+    display: block;
+}
+.stableview .header {
+    overflow: auto;
+    display: block;
+}
+.stableview th {
+    cursor: default;
+    min-width: 100px;
+    border-left-style: solid;
+    border-left-color: darkgray;
+    border-left-width: 0.5px;
+    border-right-style: solid;
+    border-right-color: darkgray;
+    border-right-width: 0.5px;
+}
+.stableview table thead .label {
+    margin-right: -10px;
+}
+.stableview table thead .sort {
+    width: 10px;
+}
+.stableview table thead tr {
+    width: 100%;
+}
+.stableview table tbody tr {
+    width: 100%;
+}
+.stableview table {
+    border-collapse: collapse;
+    border-spacing: 1;
+}
+.stableview .scell {
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 0.5px;
+    border-right-style: solid;
+    border-right-color: lightgray;
+    border-right-width: 0.5px;
+}
+.stableview table thead {
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    background-color: white;
+}
+.stableview table tbody {
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+}
+.stableview tbody .scell {
+    
+}
+.stableview table thead tr th .asc {
+    cursor: pointer;
+    color: darkgray;
+}
+.stableview table thead tr th .asc:hover {
+    color: black;
+}
+.stableview table thead tr th .desc {
+    cursor: pointer;
+    color: darkgray;
+}
+.stableview table thead tr th .desc:hover {
+    color: black;
+}
+.stableview tbody tr:hover {
+    background-color: #F0F0FF;
+}
+.stableview tbody tr.selected {
+    background-color: #F0F0FF;
+}
+.stableview tbody tr:nth-child(odd) {
+    background-color: white;
+}
+.stableview tbody tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+.stableview tbody tr:hover {
+    background-color: #F0F0FF;
+}
+.stableview .table .tbody tr.selected {
+    background-color: #F0F0FF;
+}
+.streeview {
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+}
+.stree-children {
+    margin-left: 1.5em;
+}
+.stree-children .stnode:hover {
+    background-color: #F0F0FF;
+}
+.stnode-toggle {
+    margin-right: 0.5em;
+}
+
+.stoolbar {
+    overflow: scroll;
+    margin: 10px;
+}
+.stoolbar .item {
+    display: inline-block;
+}
+
+.borderLayout {
+    display: grid;
+	width: 100%;
+	grid-template-areas: "n n n"
+	                     "w c e"
+	                     "s s s";
+}
+.borderLayout > north { grid-area:n; display: block; }
+.borderLayout > west { grid-area:w; display: inline-block; }
+.borderLayout > cent { grid-area:w; display: inline-block; }
+.borderLayout > east { grid-area:w; display: inline-block; }
+.borderLayout > south { grid-area:s; display: block; }
+.borderLayout .north {
+    width: 100%;
+    display: block;
+}
+.borderLayout .south {
+    width: 100%;
+    display: block;
+}
+.borderLayout .med {
+    width: 100%;
+    display: block;
+    flex-flow:row nowrap;
+}
+.borderLayout .east {
+    height: 100%;
+    display: inline-block;
+}
+.borderLayout .west {
+    height: 100%;
+    display: inline-block;
+}
+.borderLayout .center {
+    height: 100%;
+    display: inline-block;
+
+}
+.flowLayout {
+    display:-webkit-flex;
+    display:flex;
+}
+.flowLayout.horizontal {
+    flex-flow:row nowrap;
+}
+.flowLayout.horizontal.wrap {
+    flex-flow:row wrap;
+}
+.flowLayout.horizontal.reverse {
+    flex-flow:row-reverse nowrap;
+}
+.flowLayout.horizontal.reverse.wrap {
+    flex-flow:row-reverse wrap;
+}
+.flowLayout.vertical {
+    flex-flow:column nowrap;
+}
+.flowLayout.vertical.wrap {
+    flex-flow:column wrap;
+}
+.flowLayout.vertical.reverse {
+    flex-flow:column-reverse nowrap;
+}
+.flowLayout.vertical.reverse.wrap {
+    flex-flow:column-reverse wrap;
+}
+.flowLayout .autoscale {
+    flex:auto;
+}
+.gridLayout {
+    display: grid;
+}
+.gridLayout.autorow {
+    grid-auto-rows: 100px;
+}
+.columnLayout {
+    column-count: auto;
+}
