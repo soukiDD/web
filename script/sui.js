@@ -1520,7 +1520,7 @@ SToolBar.prototype = Object.create(SView.prototype, {
     setItems: {
         value: function(items) {
             items.forEach(item => {
-                this.addItem(new SToolbarItem(item));
+                this.addItem(new SToolBarItem(item));
             });
         }
     }
